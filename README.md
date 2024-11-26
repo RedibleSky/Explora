@@ -31,5 +31,5 @@ explora.Parent = game.Workspace
 require(explora.modules[".module_installer"]).install(gameName, installLocation, bootscreenEnabled, bootscreenLocation, bootscreengui, bootimageEnabled, bootimageLocation, UIGRadientWallpaperLocation)
 instance:Destroy()
 ```
-
+(MAY BE BROKEN, FIXING SOME THINGS SOON)
 If you want to check the asset, you can click [here](https://create.roblox.com/store/asset/87768454285343/EXPLORA-CURRENT-VER).
