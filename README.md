@@ -35,12 +35,14 @@ instance:Destroy()
 
 Next, get the server side asset here : [https://create.roblox.com/store/asset/84148591507620/exploraServer-15](https://create.roblox.com/store/asset/84148591507620/exploraServer-15)
 
-If you wanna add a os into the explora folder, you need to place it under
-
-**exploraDeploy > exploraOSdeploy > exploraOSEvents > OS**
-
 Open the folder "exploraServer", you should see the folder **exploraOSEvents** and **exploraOSScripts**
 
 Move the folder "exploraOSEvents" to **ReplicatedStorage** and move the folder "exploraOSScripts" to **ServerScriptService**
 
 If you want to check the asset, you can click [here](https://create.roblox.com/store/asset/87768454285343/EXPLORA-CURRENT-VER).
+
+
+
+If you wanna add a os into the explora folder, you need to place it under
+
+**exploraDeploy > exploraOSdeploy > exploraOSEvents > OS**
