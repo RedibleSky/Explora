@@ -46,3 +46,5 @@ If you want to check the asset, you can click [here](https://create.roblox.com/s
 If you wanna add a os into the explora folder, you need to place it under
 
 **exploraDeploy > exploraOSdeploy > exploraOSEvents > OS**
+
+YOU MUST PLACE OS UNDER A FOLDER WITH **ANY NAME**
