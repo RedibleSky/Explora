@@ -32,4 +32,11 @@ require(explora.modules[".module_installer"]).install(gameName, installLocation,
 instance:Destroy()
 ```
 (MAY BE BROKEN, FIXING SOME THINGS SOON)
+
+Next, get the server side asset here : [https://create.roblox.com/store/asset/84148591507620/exploraServer-15](https://create.roblox.com/store/asset/84148591507620/exploraServer-15)
+
+Open the folder "exploraServer", you should see the folder **exploraOSEvents** and **exploraOSScripts**
+
+Move the folder "exploraOSEvents" to **ReplicatedStorage** and move the folder "exploraOSScripts" to **ServerScriptService**
+
 If you want to check the asset, you can click [here](https://create.roblox.com/store/asset/87768454285343/EXPLORA-CURRENT-VER).
