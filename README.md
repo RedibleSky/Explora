@@ -33,11 +33,24 @@ instance:Destroy()
 ```
 (MAY BE BROKEN, FIXING SOME THINGS SOON)
 
-Next, get the server side asset here : [https://create.roblox.com/store/asset/84148591507620/exploraServer-15](https://create.roblox.com/store/asset/84148591507620/exploraServer-15)
+Next, get the server side asset here :<br>**Explora V1.5 (and 1.5.2)**<br>[https://create.roblox.com/store/asset/84148591507620/exploraServer-15](https://create.roblox.com/store/asset/84148591507620/exploraServer-15)<br>
+**Explora V1.5.3**<br>
+[https://create.roblox.com/store/asset/103270802644325/exploraServer-153](https://create.roblox.com/store/asset/103270802644325/exploraServer-153)
+
+
 
 Open the folder "exploraServer", you should see the folder **exploraOSEvents** and **exploraOSScripts**<br>
 Move the folder "exploraOSEvents" to **ReplicatedStorage** and move the folder "exploraOSScripts" to **ServerScriptService**
 
 If you want to check the asset, you can click [here](https://create.roblox.com/store/asset/87768454285343/EXPLORA-CURRENT-VER).<br><br><br>
 
+# Explora V1.5.3
+The setup is similar to **Explora V1.5** and **Explora V1.5.2**.<br><br>
+If you wanna add a os into the explora folder, you need to place it under<br>
+**exploraDeploy > exploraOSdeploy > exploraOSEvents > OS**<br>
+YOU MUST PLACE OS UNDER A FOLDER WITH **ANY NAME**
 
+Example :<br>
+![example](https://github.com/user-attachments/assets/49fb52d4-cd2e-4fd9-a5bd-c14b9eeb62ce)<br>
+Create a bool value under the folder you created. The bool value name must be "haveExploraOS".<br>
+If the os have exploraos, value must be true. Else, the value must be false
